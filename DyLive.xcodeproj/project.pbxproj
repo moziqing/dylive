@@ -13,6 +13,8 @@
 		46EC01FA200300D600D93009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46EC01F9200300D600D93009 /* Assets.xcassets */; };
 		46EC01FD200300D600D93009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46EC01FB200300D600D93009 /* LaunchScreen.storyboard */; };
 		46EC0208200300D700D93009 /* DyLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EC0207200300D700D93009 /* DyLiveTests.swift */; };
+		8BE9CB54F942AC58FBFC38AB /* Pods_DyLiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F645030DBB75D7B411F7B3DC /* Pods_DyLiveTests.framework */; };
+		D81AF5472B57B3396B3E2F17 /* Pods_DyLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40090A717E0A13D3E267DF0C /* Pods_DyLive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		207B3F0B7A6BBE4939531744 /* Pods-DyLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DyLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DyLive/Pods-DyLive.debug.xcconfig"; sourceTree = "<group>"; };
+		40090A717E0A13D3E267DF0C /* Pods_DyLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DyLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EC01EF200300D600D93009 /* DyLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DyLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EC01F2200300D600D93009 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46EC01F4200300D600D93009 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		46EC0203200300D700D93009 /* DyLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EC0207200300D700D93009 /* DyLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DyLiveTests.swift; sourceTree = "<group>"; };
 		46EC0209200300D700D93009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6272B4C00B323A2082FB8D31 /* Pods-DyLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DyLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-DyLive/Pods-DyLive.release.xcconfig"; sourceTree = "<group>"; };
+		758975C7B4E4681B18F7A59F /* Pods-DyLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DyLiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DyLiveTests/Pods-DyLiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD47EA70EF959E219F7E86CC /* Pods-DyLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DyLiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DyLiveTests/Pods-DyLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F645030DBB75D7B411F7B3DC /* Pods_DyLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DyLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81AF5472B57B3396B3E2F17 /* Pods_DyLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE9CB54F942AC58FBFC38AB /* Pods_DyLiveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				46EC01F1200300D600D93009 /* DyLive */,
 				46EC0206200300D700D93009 /* DyLiveTests */,
 				46EC01F0200300D600D93009 /* Products */,
+				49DAF09C0644B3F68BD58792 /* Pods */,
+				F1C3938BFF0E46784508D7B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = DyLiveTests;
 			sourceTree = "<group>";
 		};
+		49DAF09C0644B3F68BD58792 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				207B3F0B7A6BBE4939531744 /* Pods-DyLive.debug.xcconfig */,
+				6272B4C00B323A2082FB8D31 /* Pods-DyLive.release.xcconfig */,
+				AD47EA70EF959E219F7E86CC /* Pods-DyLiveTests.debug.xcconfig */,
+				758975C7B4E4681B18F7A59F /* Pods-DyLiveTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1C3938BFF0E46784508D7B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40090A717E0A13D3E267DF0C /* Pods_DyLive.framework */,
+				F645030DBB75D7B411F7B3DC /* Pods_DyLiveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46EC020C200300D700D93009 /* Build configuration list for PBXNativeTarget "DyLive" */;
 			buildPhases = (
+				C089D68EFE708634D88D1BE7 /* [CP] Check Pods Manifest.lock */,
 				46EC01EB200300D600D93009 /* Sources */,
 				46EC01EC200300D600D93009 /* Frameworks */,
 				46EC01ED200300D600D93009 /* Resources */,
+				ADE1C02C614678936F423F2F /* [CP] Embed Pods Frameworks */,
+				83B1BF1917A080CBF161FB37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46EC020F200300D700D93009 /* Build configuration list for PBXNativeTarget "DyLiveTests" */;
 			buildPhases = (
+				633D6109A59E82B50C3B9705 /* [CP] Check Pods Manifest.lock */,
 				46EC01FF200300D700D93009 /* Sources */,
 				46EC0200200300D700D93009 /* Frameworks */,
 				46EC0201200300D700D93009 /* Resources */,
+				5038FCCE2F23A9D0810FE42A /* [CP] Embed Pods Frameworks */,
+				9D52333A434C28A364EB28FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5038FCCE2F23A9D0810FE42A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DyLiveTests/Pods-DyLiveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		633D6109A59E82B50C3B9705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DyLiveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B1BF1917A080CBF161FB37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DyLive/Pods-DyLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D52333A434C28A364EB28FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DyLiveTests/Pods-DyLiveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE1C02C614678936F423F2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DyLive/Pods-DyLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C089D68EFE708634D88D1BE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DyLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46EC01EB200300D600D93009 /* Sources */ = {
@@ -351,11 +488,13 @@
 		};
 		46EC020D200300D700D93009 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207B3F0B7A6BBE4939531744 /* Pods-DyLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KGVVS32GX9;
 				INFOPLIST_FILE = DyLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eugene.DyLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,11 +505,13 @@
 		};
 		46EC020E200300D700D93009 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6272B4C00B323A2082FB8D31 /* Pods-DyLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KGVVS32GX9;
 				INFOPLIST_FILE = DyLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eugene.DyLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +522,7 @@
 		};
 		46EC0210200300D700D93009 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD47EA70EF959E219F7E86CC /* Pods-DyLiveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +540,7 @@
 		};
 		46EC0211200300D700D93009 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758975C7B4E4681B18F7A59F /* Pods-DyLiveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
